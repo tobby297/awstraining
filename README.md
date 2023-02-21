@@ -1,2 +1,1 @@
-# awstraining
-# awstraining
+# AWS DevOps training
