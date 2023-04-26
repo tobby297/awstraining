@@ -32,14 +32,14 @@ spec:
       #CODE2.1:
       #add the FLASK container to the pod
       - name: flask
-        image: cloudacademydevops/flaskapp
+        image: public.ecr.aws/x7w7d3s5/anmuteflaskapp:latest
         imagePullPolicy: IfNotPresent
         ports:
         - name: http
           containerPort: 5000
         env:
         - name: APP_NAME
-          value: CloudAcademy.DevOps.K8s.Manifest
+          value: Anmute.DevOps.K8s.Manifest
       volumes:
       #CODE2.2:
       #reference the nginx-conf configMap - this will be mounted into the NGINX container
