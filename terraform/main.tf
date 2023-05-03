@@ -10,7 +10,6 @@ terraform {
 # Configure the AWS Provider
 provider "aws" {
   region = var.region
-  profile = var.profile_name
 }
 
 # Create a VPC
