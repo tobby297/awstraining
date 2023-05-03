@@ -4,9 +4,6 @@ default = "us-west-2"
 variable "instance_type" {
 default = "t2.micro"
 }
-variable "profile_name" {
-default = "default"
-}
 variable "instance_key" {
 default = "anmute-ec2-key"
 }
