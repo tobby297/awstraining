@@ -1,0 +1,13 @@
+service: 
+  name: app 
+  type: LoadBalancer 
+  port: 80 
+ 
+
+app: 
+  name: app
+  replicas: 3
+  image: nginx 
+  imagePullPolicy: Always 
+  containerPort: 80
+
